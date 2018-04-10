@@ -1,10 +1,9 @@
 # Error Extractor
 This module help extract error status and error message from a specific string type.
 
-The specified string will be in the format of `status__message`. Examples:
->"404__Page Not found"
+The specified error string will be in the format of `status__message`. The function returns an array in the form of `[STATUS_CODE, MESSAGE]`. I prefer to use ES6 [destructive assingment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to receive the values in variables.
 
-The function returns an array in the form of `[STATUS_CODE, MESSAGE]`. We prefer to use ES6 [destructive assingment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to receive values in variables.
+Example:
 
 ```js
 const errExt = require('error-extractor')

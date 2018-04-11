@@ -1,4 +1,6 @@
 # Error Extractor
+[![Build Status](https://travis-ci.org/iAziz786/error-extractor.svg?branch=master)](https://travis-ci.org/iAziz786/error-extractor)
+
 This module help extract error status and error message from a specific string type.
 
 The specified error string will be in the format of `status__message`. The function returns an array in the form of `[STATUS_CODE, MESSAGE]`. I prefer to use ES6 [destructive assingment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to receive the values in variables.
